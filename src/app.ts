@@ -6,4 +6,8 @@ export class AppTest {
   shouldAnswerWithFalse(): boolean {
     return false;
   }
+
+  add(a: number, b: number): number {
+    return a + b;
+  }
 }
